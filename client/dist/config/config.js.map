@@ -1,0 +1,1 @@
+{"version":3,"sources":["/src/config/config.js"],"names":["env","config","module","exports"],"mappings":";AACA,MAAMA,MAAM,MAAZ,C,CAAkB;;AAElB,MAAMC,SAAS;AACbD,OAAKA;AADQ,CAAf;;AAIAE,OAAOC,OAAP,GAAiBF,MAAjB","file":"config.js","sourcesContent":["\nconst env = 'test'// 'develop', 'test', 'production'\n\nconst config = {\n  env: env\n}\n\nmodule.exports = config\n"]}

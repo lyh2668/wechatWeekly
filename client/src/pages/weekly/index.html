@@ -1,0 +1,9 @@
+<import src="../../template/listItem/weeklyItem.wxml"/>
+
+<scorll-view class="home-content">
+  <view wx:for="{{ weeklyDatas }}" class="weekly-list">
+    <view class="weekly-item" data-item="{{ item }}" bindtap="toDetail">
+      <template is="weeklyItem" data="{{ ...item }}"></template>
+    </view>
+  </view>
+</scorll-view>

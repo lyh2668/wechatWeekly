@@ -1,0 +1,11 @@
+{
+  "serverPort": 54321,
+  "mysql": {
+    "name": "mysql",
+    "host": "183.245.210.26",
+    "port": "3306",
+    "user": "root",
+    "password": "govmadedb",
+    "database": "govmade22"
+  }
+}

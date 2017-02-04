@@ -1,0 +1,11 @@
+.weekly-detail-content {
+  background-color: #f5f5f5; }
+  .weekly-detail-content .title {
+    margin-left: 20rpx;
+    font-size: 35rpx;
+    color: #696969;
+    line-height: 2.2; }
+  .weekly-detail-content .confirm-btn-wrap {
+    margin: 20rpx; }
+    .weekly-detail-content .confirm-btn-wrap button {
+      font-size: 35rpx; }

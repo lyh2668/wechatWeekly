@@ -1,0 +1,1 @@
+{"version":3,"file":"index.wxss","sources":["/src/pages/weekly/index.scss"],"sourcesContent":[".home-content {\n  .weekly-item {\n    border-bottom: 1px solid #f4f4f4;\n  }\n}\n"],"mappings":"AAAA,AACE,aADW,CACX,YAAY,CAAC;EACX,aAAa,EAAE,iBAAkB,GAClC","names":[]}

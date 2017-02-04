@@ -1,0 +1,1 @@
+{"pages":["pages/login/login","pages/weekly/index","pages/weekly/detail"],"window":{"navigationBarBackgroundColor":"#35495e","navigationBarTextStyle":"white","navigationBarTitleText":"国脉周报","backgroundColor":"#fbf9fe","backgroundTextStyle":"dark","enablePullDownRefresh":true},"networkTimeout":{"request":10000,"downloadFile":10000},"debug":true}

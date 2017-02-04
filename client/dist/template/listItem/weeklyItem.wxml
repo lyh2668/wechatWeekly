@@ -1,0 +1,34 @@
+<!--
+  title: 标题，周报时间
+  desc: 副标题
+  isWeek: 是否为周报
+ -->
+
+<!-- <template name="weeklyItem-2">
+  <navigator url="/pages/weekly/detail?id={{ id }}">
+    <view class="tpl-weekly-item">
+      <view class="week-icon" wx:if="types === 3">周</view>
+      <view class="text">
+        <view class="title">{{ title }}</view>
+        <view class="desc">{{ desc }}</view>
+      </view>
+    </view>
+  </navigator>
+</template> -->
+
+<template name="weeklyItem">
+  <!-- <navigator url="/pages/weekly/detail?id={{ id }}"> -->
+  <view class="tpl-weekly-item">
+    <view class="week-icon" wx:if="types === 3">周</view>
+    <view class="text">
+      <view class="title">
+        {{ stime }}
+        至
+        {{ etime }}
+      </view>
+      <view class="desc two_line" wx:if="{{summary_this_week}}">{{ summary_this_week }}</view>
+      <view class="desc two_line desc-no" wx:else>[ 这周周报还没写... ]</view>
+    </view>
+  </view>
+  <!-- </navigator> -->
+</template>

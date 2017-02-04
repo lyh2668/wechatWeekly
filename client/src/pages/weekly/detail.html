@@ -1,0 +1,17 @@
+<scroll-view scroll-y="true" class="weekly-detail-content">
+  <view class="confirm-btn-wrap">
+    <button type="primary" bindtap="confirm">提交</button>
+  </view>
+  <view wx:for="{{ datas.content }}">
+    <text class="title">{{ item.title }}</text>
+    <view class="textarea">
+      <textarea
+        value="{{ item.text }}"
+        placeholder="{{ item.placeholder }}"
+        data-index="{{ index }}"
+        bindconfirm="textConfirm"
+        bindblur="textBlur"></textarea>
+    </view>
+  </view>
+
+</scroll-view>

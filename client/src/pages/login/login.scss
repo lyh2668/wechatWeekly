@@ -1,0 +1,19 @@
+.login-container {
+  max-width: 600rpx;
+  margin: auto;
+  padding-top: 100rpx;
+  background: #FFF;
+
+  .thumb {
+    max-width: 300rpx;
+    max-height: 300rpx;
+    margin: auto;
+    margin-bottom: 50rpx;
+
+    image {
+      max-width: 100%;
+      max-height: inherit;
+      border-radius: 50%;
+    }
+  }
+}
